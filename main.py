@@ -14,9 +14,9 @@ def Identification():
  global username_entry
  global password_entry
 
- Label(screen, text="LOGIN", font=("Arial black",25)).place(x=640,y=200)
+ Label(screen, text="connexion", font=("Arial black",25)).place(x=640,y=200)
 
- Label(screen,text="user name : ",font=("Arial black",12)).place(x=545,y=260)
+ Label(screen,text="Nom d'utilisateur : ",font=("Arial black",12)).place(x=545,y=260)
  username_entry=Entry(screen, textvariable="",width=50)
  username_entry.place(x=545,y=290)
 
